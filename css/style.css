@@ -246,8 +246,7 @@ direction__item-titletext{
 .team__item{
   position: absolute;
   width: 98px;
-  height: 98px;
- 
+  height: 98px; 
 }
 .team__item--1{
    top: 157px;
@@ -295,11 +294,12 @@ direction__item-titletext{
 .team__item-text--right::after,
 .team__item-text--right::before,
 .team__item-text--left::after,
-.team__item-text--left::before{
+.team__item-text--left::before {
+  content: "";
   position: absolute;
   background-color: #fff;
   border-radius: 50%;
-}
+  }
 .team__item-text--right::after,
 .team__item-text--left::after{
   width: 17px;
