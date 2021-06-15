@@ -395,7 +395,7 @@ direction__item-titletext{
 .footer__menu{
   width: 135px;  
 }
-footer__menu-title,
+.footer__menu-title,
 .footer__form-text{
   margin-bottom: 35px;
   font-size: 20px;
