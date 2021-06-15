@@ -1,8 +1,8 @@
 $(function(){
-$('.top__slider').slick({
-	arrows: false,
-	dots: true,
-	autoplay: true,
-	fade: true
-});
+  $('.slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows: false
+  });
+  
 });
